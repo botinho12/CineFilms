@@ -10,12 +10,12 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'rdflix';
+  title = 'galloflix';
   navbg: any;
 
   @HostListener('document:scroll') scrollover() {
-    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      this.navbg = { 'background-color': '#000'}
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      this.navbg = { 'background-color' : '#000' }
     } else {
       this.navbg = {}
     }

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "rdflix": {
+    "galloflix": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/rdflix",
+            "outputPath": "dist/galloflix",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "rdflix:build:production"
+              "buildTarget": "galloflix:build:production"
             },
             "development": {
-              "buildTarget": "rdflix:build:development"
+              "buildTarget": "galloflix:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +94,6 @@
     }
   },
   "cli": {
-    "analytics": "fd2379e0-15bc-4ade-ace7-4f4fcfbba8a5"
+    "analytics": "2ee8c74e-189e-460e-83e6-6def0a18b452"
   }
 }
